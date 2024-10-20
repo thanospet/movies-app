@@ -1,0 +1,225 @@
+.admin-rentals-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: inherit;
+  border-radius: 10px;
+}
+
+.rentals-table {
+  width: 100%;
+  height: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  text-align: left;
+}
+
+.rentals-table th,
+.rentals-table td {
+  height: 60px;
+  padding: 10px;
+}
+
+.rentals-table td.movie-column {
+  width: 250px;
+  padding-right: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rentals-table th {
+  background-color: #1100ffe0;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 2px solid #dddddd;
+}
+
+.rentals-table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.rentals-table tr:hover {
+  background-color: #525252;
+}
+
+.rentals-table td {
+  color: #ffffff; 
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination-item {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #09026ee0;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  max-width: 40px;
+  text-align: center;
+}
+
+.pagination-item.active {
+  background-color: #170bc9e0;
+  color: #cccccc;
+  border-color: #ffffff;
+}
+
+.pagination-item:hover {
+  background-color: #5c5c5c;
+  color: #ffffff;
+}
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background-color: #c7c7c7;
+  resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff; 
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+  resize: none; 
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message,
+.success-message {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #e74c3c;
+}
+
+.success-message {
+  color: #2ecc71;
+}
+
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.admin-first-row {
+  display: flex;
+  width: 90%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.admin-movie-upload-container {
+  flex: 1;
+  padding: 20px;
+  background-color: inherit;
+  color: #000000;
+  max-width: 40%;
+}
+
+.admin-bubble-chart-container {
+  flex: 1;
+  max-width: 70%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.admin-second-row {
+  width: 100%;
+  max-width: 800px;
+}
+
+.admin-rentals-container {
+  width: 100%;
+  background-color: inherit;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-top: -300px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.admin-logout {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}

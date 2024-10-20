@@ -1,0 +1,49 @@
+.profile-modal-overlay {
+  position: absolute;
+  left: 84vw;
+  top: 12vh;
+  background: rgba(49, 49, 49, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.profile-modal-content {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,9,121,1) 54%, rgba(4,24,181,1) 100%);
+  padding: 30px;
+  border-radius: 8px;
+  width: 200px;
+  max-width: 220px;
+  height: 140px;
+  max-height: 220px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.profile-close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+.profile-close-button:hover {
+  color: rgb(131, 5, 5);
+}
+
+.profile-modal-button {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  background-color: rgb(35, 3, 122);
+}

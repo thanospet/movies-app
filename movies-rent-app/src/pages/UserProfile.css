@@ -1,0 +1,164 @@
+.profile-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: inherit;
+  border-radius: 10px;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: medium;
+}
+
+.value {
+  color: #ffee00bd;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.rentals-table {
+  width: 100%;
+  height: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  text-align: left;
+}
+
+.rentals-table th,
+.rentals-table td {
+  height: 60px;
+}
+
+.rentals-table td.movie-column {
+  width: 250px;
+  padding-right: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rentals-table th {
+  background-color: #1100ffe0;
+  color: rgb(255, 255, 255); 
+  font-weight: bold;
+  border-bottom: 2px solid #dddddd;
+  padding: 10px;
+}
+
+.rentals-table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.rentals-table tr:hover {
+  background-color: #525252;
+}
+
+.rentals-table td {
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination-item {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #09026ee0;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  max-width: 40px;
+  text-align: center;
+}
+
+.pagination-item.active {
+  background-color: #170bc9e0;
+  color: rgb(204, 204, 204);
+  border-color: #ffffff;
+}
+
+.pagination-item:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+.funds-input-container {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin-left: 20px;
+}
+
+.funds-input {
+  padding: 5px;
+  width: 100px;
+  border: 1px solid #ccc;
+  color: #000000;
+  border-radius: 5px;
+  margin-right: 10px; 
+}
+
+.add-funds-icon {
+  color: #28a745; 
+  font-size: 20px;
+  position: absolute;
+  right: -25px; 
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.add-funds-icon:hover {
+  color: #218838;
+}
+
+.wallet-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
